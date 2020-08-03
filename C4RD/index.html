@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 <title> V </title>
+	 <link rel="stylesheet" href="css/css.css">
+	</head>
+
+ <body>
+
+	<div class = "introduction"> 
+	 <h2>When the past is always with you, it may as well be present; and if it is present, it will be future as well.</h2>
+	</div>
+ 
+ <!-- need to use the <style> tag in HTML because the script can't read from other file -->
+ 
+	<style>
+		#iAm {
+		font-family: Futura, sans-serif;
+		color: #32ffff;
+		text-align: center;
+		display: none;
+		position: absolute;
+		z-index: 4;
+		left:0;
+        right:0;
+		}
+	</style>
+ 
+	<script>
+		function show() {
+		 let x = document.getElementById("iAm");
+		 if ( window.getComputedStyle(x, null).getPropertyValue("display") === 'none') {
+		 x.style.display = "block";
+		 } else {
+		 x.style.display = "none";
+		 }
+		}
+	</script>
+ 
+	<div class = "whoami">
+	 <button onclick="show()"> <p> <span class = "slash">/</span>whoami </p> </button> 
+	</div>
+  
+	<div id = "iAm" class = "iAm"> 
+	 Edgerunner, Cyberpunk, h4ck3r, Cypherpunk, pistonhead, paranoid
+	</div>
+    
+	<script>
+		function showGoals() {
+		 let x = document.getElementById("myGoals");
+		 if ( window.getComputedStyle(x, null).getPropertyValue("display") === 'none') {
+		 x.style.display = "block";
+		 } else {
+		 x.style.display = "none";
+		 }
+		}
+	</script>
+	
+	<div class = "goals">
+     <button onclick="showGoals()"> <p> <span class = "slash">/</span>goals </p> </button>
+	</div>
+	
+	<div id = "myGoals" class = "myGoals">
+	 I am looking for Edgerunners like me to work with
+	</div>
+	
+	<style>
+		#myGoals {
+		font-family: Futura, sans-serif;
+		color: #32ffff;
+		text-align: center;
+		display: none;
+		position: absolute;
+		z-index: 4;
+		left:0;
+        right:0;
+		}
+	</style>
+	
+	<script>
+		function showContacts() {
+		 let x = document.getElementById("myContacts");
+		 if ( window.getComputedStyle(x, null).getPropertyValue("display") === 'none') {
+		 x.style.display = "block";
+		 } else {
+		 x.style.display = "none";
+		 }
+		}
+	</script>
+	
+	<div class = "contacts">
+	 <button onclick="showContacts()"> <p> <span class = "slash">/</span>contacts </p> </button>
+	</div>
+	
+	<div id = "myContacts" class = "myContacts">
+	 To contact me you'll have to use the <a href="https://u.is">Utopia P2P ecosystem</a> and my Public PGP key.<br>
+	 <br>
+	 <a href="faq.html" class = "linkToFAQ">Click here for more information</a> 
+	</div>
+	
+	<style>
+		#myContacts {
+		font-family: Futura, sans-serif;
+		color: #32ffff;
+		text-align: center;
+		display: none;
+		position: absolute;
+		z-index: 4;
+		left:0;
+        right:0;
+		z-index: 10;
+		}
+	</style>
+	
+	<script>
+		function showPublicKey() {
+		 let x = document.getElementById("myPublicKey");
+		 if ( window.getComputedStyle(x, null).getPropertyValue("display") === 'none') {
+		 x.style.display = "block";
+		 } else {
+		 x.style.display = "none";
+		 }
+		}
+	</script>
+	
+	<div class = "pgp">
+	 <button onclick="showPublicKey()"> <p> <span class = "slash">/</span>key </p> </button>
+	</div>
+	
+	<div id = "myPublicKey" class = "myPublicKey">
+	 <pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+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
+3hIT3V2SbNE7tO+OEMFiJ+rQ=cWOQ
+		 
+-----END PGP PUBLIC KEY BLOCK-----
+	 </pre>
+	</div>
+    
+	<style>
+		#myPublicKey {
+		font-family: Futura, sans-serif;
+		color: #32ffff;
+		text-align: center;
+		display: none;
+		position: absolute;
+		left:0;
+        right:0;
+		}
+	</style>
+	
+ </body>
+
+</html>

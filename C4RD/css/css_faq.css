@@ -1,0 +1,158 @@
+body {
+	background-color: black;
+	box-sizing: border-box;
+	margin: 0;
+}
+
+h1 {
+	font-family: noto-serif-regular,Georgia,serif;
+	color: #BFBFBF;
+	text-align: center;
+	letter-spacing: 10px;
+	text-shadow: 3px 3px #66002A;
+	
+}
+
+.boringHeadline {
+	font-weight: 600;
+	color: #BFBFBF;
+	text-shadow: 3px 3px #66002A;
+}
+
+.headlineCurve {
+	color: #BFBFBF;
+	text-shadow: 2px 2px #8F003B;
+}
+
+.invisibleCurve {
+	opacity: 0;
+}
+
+.whySoBoring {
+	color: #32ffff;
+	font-family: Futura, sans-serif;
+	font-size: 150%;
+	text-shadow: 2px 2px #8F003B;
+	text-align: left;
+	padding-left: 1%;
+}
+
+.noInstagram {
+	font-family: noto-serif-regular,Georgia,serif;
+	font-size: 130%;
+	color: #eebb16;
+}
+
+
+.whatIsUtopia {
+	color: #32ffff;
+	font-family: Futura, sans-serif;
+	font-size: 150%;
+	text-shadow: 2px 2px #8F003B;
+	text-align: left;
+	padding-left: 1%;
+}
+
+.utopiaHeadline {
+	font-weight: 600;
+	color: #BFBFBF;
+	text-shadow: 3px 3px #66002A;
+}
+
+a {
+	text-decoration: none;
+	color: #eebb16; 
+}
+
+.manifesto {
+	font-family: noto-serif-regular,Georgia,serif;
+	
+}
+
+.whatIsPGP {
+	color: #32ffff;
+	font-family: Futura, sans-serif;
+	font-size: 150%;
+	text-shadow: 2px 2px #8F003B;
+	text-align: left;
+	padding-left: 1%;
+}
+
+.PGPHeadline {
+	font-weight: 600;
+	color: #BFBFBF;
+	text-shadow: 3px 3px #66002A;
+}
+
+.whatFor {
+	color: #32ffff;
+	font-family: Futura, sans-serif;
+	font-size: 150%;
+	text-shadow: 2px 2px #8F003B;
+	text-align: left;
+	padding-left: 1%;
+}
+
+.whatForHeadline {
+	font-weight: 600;
+	color: #BFBFBF;
+	text-shadow: 3px 3px #66002A;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	h1 {
+		font-size: 500%;
+		letter-spacing: 40px;
+		text-shadow: 5px 5px #66002A;
+	}
+	
+	.boringHeadline {
+		font-size: 160%;
+	}
+	
+	.whySoBoring {
+		font-size: 220%;
+		width: 100%;
+		line-height: 45px;
+		margin-top: 10%;
+		margin-left: 2%;
+	}
+	
+	.utopiaHeadline {
+		font-size: 160%;
+		
+	}
+	
+	.whatIsUtopia {
+		font-size: 220%;
+		width: 100%;
+		line-height: 45px;
+		margin-top: 10%;
+		margin-left: 2%;
+	}
+	
+	.PGPHeadline {
+		font-size: 160%;
+	}
+	
+	.whatIsPGP {
+		font-size: 220%;
+		width: 100%;
+		line-height: 45px;
+		margin-top: 10%;
+		margin-left: 2%;
+	}
+	
+	.whatForHeadline {
+		font-size: 160%;
+	}
+	
+	.whatFor {
+		font-size: 220%;
+		width: 100%;
+		line-height: 45px;
+		margin-top: 10%;
+		margin-left: 2%;
+	}
+}
